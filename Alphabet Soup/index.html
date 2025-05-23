@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alphabet Soup 🥣</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="floating-letters" id="floatingLetters"></div>
+
+    <div class="container">
+      <div class="header">
+        <h1>Alphabet Soup 🥣</h1>
+        <p>Transform messy recipe data into a beautiful, organized feast!</p>
+        <div class="soup-bowl"></div>
+      </div>
+
+      <div class="control-panel">
+        <button class="btn" id="formatBtn">🍴 Format Recipe</button>
+        <button class="btn" id="scrambleBtn">🔀 Scramble Text</button>
+        <button class="btn" id="extractBtn">🔤 Extract Alphabet</button>
+      </div>
+
+      <div class="alphabet-display" id="alphabetDisplay"></div>
+
+      <div class="main-content">
+        <div class="section">
+          <h2 class="section-title">🥄 Raw Ingredients</h2>
+          <div class="messy-recipe" id="messyRecipe">
+            CLASSIC ALPHABET SOUP ingredients 2 tablespoons olive oil 1 large
+            onion diced 2 carrots diced 2 celery stalks diced 3 cloves garlic
+            minced 8 cups chicken broth 1 can 14.5 oz diced tomatoes 1 cup
+            alphabet pasta 2 cups cooked chicken shredded 1 teaspoon dried
+            oregano 1 teaspoon dried basil salt and pepper to taste 2
+            tablespoons fresh parsley chopped INSTRUCTIONS heat olive oil in
+            large pot over medium heat add onion carrots celery cook 5 minutes
+            until softened add garlic cook 1 minute more add chicken broth diced
+            tomatoes oregano basil bring to boil add alphabet pasta cook 8-10
+            minutes until tender add cooked chicken season with salt pepper
+            simmer 5 minutes stir in fresh parsley serve hot enjoy your homemade
+            alphabet soup perfect for cold days warming and satisfying serves 6
+            people prep time 15 minutes cook time 25 minutes total time 40
+            minutes
+          </div>
+
+          <div class="cooking-timer">
+            <div class="progress-circle" id="progressCircle"></div>
+            <div class="timer-display" id="timerDisplay">00:00</div>
+            <p>Cooking Progress</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title">🍲 Formatted Recipe</h2>
+          <div class="formatted-recipe" id="formattedRecipe">
+            <p
+              style="
+                text-align: center;
+                color: #6c757d;
+                font-style: italic;
+                margin-top: 50px;
+              "
+            >
+              Click "Format Recipe" to transform the messy text into a beautiful
+              recipe! ✨
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

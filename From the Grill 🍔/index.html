@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From the Grill 🍔</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>From the Grill 🔥</h1>
+        <p>
+          Sizzling hot and ready to serve! Click any item to start grilling.
+        </p>
+      </div>
+
+      <div class="grill-container">
+        <div class="food-item" data-food="burger">
+          <span class="food-icon">🍔</span>
+          <h3>Classic Burger</h3>
+          <p>
+            Juicy beef patty with fresh lettuce, tomato, and our secret sauce on
+            a toasted bun.
+          </p>
+          <div class="temperature">Medium Rare</div>
+          <div class="grill-marks">╫</div>
+        </div>
+
+        <div class="food-item" data-food="hotdog">
+          <span class="food-icon">🌭</span>
+          <h3>Grilled Hot Dog</h3>
+          <p>
+            Premium all-beef frankfurter with perfect grill marks, served with
+            your choice of toppings.
+          </p>
+          <div class="temperature">Well Done</div>
+          <div class="grill-marks">╫</div>
+        </div>
+
+        <div class="food-item" data-food="kebab">
+          <span class="food-icon">🍢</span>
+          <h3>BBQ Kebabs</h3>
+          <p>
+            Tender chunks of marinated meat and fresh vegetables grilled to
+            perfection on skewers.
+          </p>
+          <div class="temperature">Medium</div>
+          <div class="grill-marks">╫</div>
+        </div>
+
+        <div class="food-item" data-food="steak">
+          <span class="food-icon">🥩</span>
+          <h3>Grilled Steak</h3>
+          <p>
+            Premium cut ribeye steak seasoned with herbs and grilled over open
+            flames.
+          </p>
+          <div class="temperature">Medium Rare</div>
+          <div class="grill-marks">╫</div>
+        </div>
+
+        <div class="food-item" data-food="chicken">
+          <span class="food-icon">🍗</span>
+          <h3>BBQ Chicken</h3>
+          <p>
+            Tender chicken drumsticks basted with our signature BBQ sauce and
+            grilled to golden perfection.
+          </p>
+          <div class="temperature">Well Done</div>
+          <div class="grill-marks">╫</div>
+        </div>
+
+        <div class="food-item" data-food="corn">
+          <span class="food-icon">🌽</span>
+          <h3>Grilled Corn</h3>
+          <p>
+            Sweet corn on the cob brushed with herb butter and grilled until
+            kernels are caramelized.
+          </p>
+          <div class="temperature">Perfect</div>
+          <div class="grill-marks">╫</div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>🔥 Welcome to the CodePen May Challenge! 🔥</p>
+        <p>Every item is grilled fresh with HTML, CSS, and JavaScript</p>
+      </div>
+    </div>
+
+    <div class="cooking-status" id="cookingStatus">
+      <h3 id="cookingTitle">🔥 Firing up the grill...</h3>
+      <div class="cooking-progress">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <p id="cookingMessage">Getting those perfect grill marks!</p>
+    </div>
+
+    <div class="ember-effects" id="emberEffects"></div>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toasts & Snackbars 🍞</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Toasts & Snackbars 🍞</h1>
+        <p>Delicious breakfast treats meet modern UI notifications!</p>
+      </div>
+
+      <div class="main-content">
+        <!-- Toast Section -->
+        <div class="toast-section">
+          <h2 class="section-title">🍞 Breakfast Toasts</h2>
+
+          <div class="toast-gallery">
+            <div class="toast-item" data-toast="avocado">
+              <span class="toast-emoji">🥑</span>
+              <div class="toast-name">Avocado Toast</div>
+              <div class="toast-desc">Fresh avocado on sourdough</div>
+            </div>
+
+            <div class="toast-item" data-toast="butter">
+              <span class="toast-emoji">🧈</span>
+              <div class="toast-name">Butter Toast</div>
+              <div class="toast-desc">Classic buttered perfection</div>
+            </div>
+
+            <div class="toast-item" data-toast="jam">
+              <span class="toast-emoji">🍓</span>
+              <div class="toast-name">Strawberry Jam</div>
+              <div class="toast-desc">Sweet berry goodness</div>
+            </div>
+
+            <div class="toast-item" data-toast="honey">
+              <span class="toast-emoji">🍯</span>
+              <div class="toast-name">Honey Toast</div>
+              <div class="toast-desc">Golden honey drizzle</div>
+            </div>
+
+            <div class="toast-item" data-toast="peanut">
+              <span class="toast-emoji">🥜</span>
+              <div class="toast-name">Peanut Butter</div>
+              <div class="toast-desc">Creamy protein power</div>
+            </div>
+
+            <div class="toast-item" data-toast="cinnamon">
+              <span class="toast-emoji">✨</span>
+              <div class="toast-name">Cinnamon Toast</div>
+              <div class="toast-desc">Warm spice sensation</div>
+            </div>
+          </div>
+
+          <div class="demo-area">
+            <div class="demo-title">Click any toast to see it "pop up"! 🍞</div>
+            <p>Each breakfast toast triggers its own notification</p>
+          </div>
+        </div>
+
+        <!-- Snackbar Section -->
+        <div class="snackbar-section">
+          <h2 class="section-title">🔔 UI Notifications</h2>
+
+          <div class="control-panel">
+            <button class="btn success" data-type="success">
+              Success Toast
+            </button>
+            <button class="btn error" data-type="error">Error Toast</button>
+            <button class="btn warning" data-type="warning">
+              Warning Toast
+            </button>
+            <button class="btn info" data-type="info">Info Toast</button>
+          </div>
+
+          <div class="control-panel">
+            <button class="btn" id="snackbarBtn">Show Snackbar</button>
+            <button class="btn" id="multiToastBtn">Multiple Toasts</button>
+          </div>
+
+          <div class="demo-area">
+            <div class="demo-title">Modern UI Components</div>
+            <p>
+              Interactive toast notifications and snackbars with animations,
+              progress bars, and actions
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notifications Container -->
+    <div class="toast-notifications" id="toastContainer"></div>
+
+    <!-- Snackbar -->
+    <div class="snackbar" id="snackbar">
+      <span class="snackbar-icon" id="snackbarIcon">📱</span>
+      <div class="snackbar-message" id="snackbarMessage">
+        This is a snackbar notification!
+      </div>
+      <button class="snackbar-action" id="snackbarAction">UNDO</button>
+    </div>
+  </body>
+</html>
