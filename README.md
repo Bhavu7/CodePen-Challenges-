@@ -69,7 +69,7 @@ This repository is open-sourced under the [MIT License](LICENSE).
 
 Looking to collaborate, hire, or just vibe about front-end and design systems?
 
-- 🌐 [My Portfolio](https://developer-bhavesh.app/)
+- 🌐 [My Portfolio](https://developer-bhavesh.netlify.app/)
 - 🔗 [All My Links](https://linktr.ee/developer_bhavesh)
 
 > _"Code is poetry. This repo is a collection of verses."_  
